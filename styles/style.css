@@ -62,6 +62,10 @@
   box-shadow: 0 0 7px 3px rgba(0, 0, 0, .0001);
 }
 
+.form__input--invalid {
+  border-color: var(--red);
+}
+
 .form__input:focus {
   outline: none;
 }
@@ -73,6 +77,20 @@
 
 .form__input::placeholder {
   color: var(--blue-pale);
+}
+
+.form__message {
+  display: none;
+  margin-top: -8px;
+  padding: 0 30px;
+  font-size: 10px;
+  line-height: 2;
+  letter-spacing: .125px;
+  color: var(--red);
+}
+
+.form__message--visible {
+  display: block;
 }
 
 .form__button {
@@ -226,6 +244,15 @@
     padding-bottom: 17px;
     font-size: 16px;
     line-height: 1.25;
+  }
+
+  .form__message {
+    order: 1;
+    margin-top: -11px;
+    font-size: 12px;
+    line-height: 1.67;
+    letter-spacing: .15px;
+    text-align: left;
   }
 
   .form__button {
