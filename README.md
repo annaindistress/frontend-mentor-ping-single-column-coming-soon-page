@@ -27,11 +27,23 @@ Users should be able to:
 
 ### Screenshot
 
+![](./screenshot.png)
+
 ### Links
+
+- [Solution URL](https://github.com/annaindistress/frontend-mentor-ping-single-column-coming-soon-page)
+- [Live Site URL](https://annaindistress.github.io/frontend-mentor-ping-single-column-coming-soon-page/)
 
 ## My process
 
 ### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Vanilla JavaScript
 
 ## Author
 
